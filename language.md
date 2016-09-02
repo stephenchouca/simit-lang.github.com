@@ -787,7 +787,7 @@ corresponds to when mapping `tet_force` to the `tetrahedra` set. Since elements
 of tuple `p` are used to index into the result vector `f` in the body of
 `tet_force`, the compiler would actually be able to deduce that `S` must
 correspond to the set that contains the elements of `p`, which in the case of
-the assembly map must be the `points` set (the edge set of `tetrahedra`).
+the assembly map must be the `points` set (the endpoint set of `tetrahedra`).
 
 
 # Built-in Functions
